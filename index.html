@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>adi:</p>
+        <input type="text" id="id">
+        <p>yasi:</p>
+        <input type="text" id="id1">
+        <button onclick="show1()">mmm</button>
+
+        <h1 id="id2"></h1>
+      
+        
+        <script>
+        show=()=>{
+        var x=document.getElementById("id").value;
+        var y=document.getElementById("id1").value;
+        return 'merhaba adim '+x+',yasim '+y+' dir.'};
+        show1=()=>{document.getElementById("id2").innerHTML=show()};
+        </script>
+    </body>
+</html>
